@@ -1,7 +1,11 @@
 FactoryGirl.define do
   factory :idea do
-    title "MyString"
-    body "MyText"
-    quality 1
+    title "First Idea"
+    body "Create world peace"
+    quality 2
+
+    title "Second Idea"
+    body "Buy more potato chips"
+    quality 0
   end
 end
